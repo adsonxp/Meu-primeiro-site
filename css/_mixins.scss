@@ -1,0 +1,20 @@
+@import 'variables';
+
+@mixin btn-main {
+    background-color: $btn-color;
+    padding: 10px 25px;
+    border: none;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.514);
+    transition: 0.3s ease-in-out;
+     &:hover {
+        transform: scale(1.1);
+        transition: .4s;
+     }
+}
+
+@mixin padding {
+   padding-top: 150px;
+}
